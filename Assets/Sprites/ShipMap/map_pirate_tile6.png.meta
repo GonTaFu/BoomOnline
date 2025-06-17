@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 16
     mipBias: 0
     wrapU: 1
@@ -43,17 +43,17 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -121,13 +121,722 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: map_pirate_tile6_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf57b8dbcf582e4a863b772ba9bcf52
+      internalID: 1513957540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 120
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81284bd8be8be840bdd176f878bc3e7
+      internalID: 255297698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 80
+        width: 40
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5, y: 0.34246576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c216535aca6893448a96e7a7a4b4522a
+      internalID: 736505042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 81
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18d3ff77c5b7b845a17b7651a5d794f
+      internalID: -131836980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 81
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3fb16f29e57fe4fa9d334dc8499e19
+      internalID: -1347198314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_5
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 81
+        width: 39
+        height: 57
+      alignment: 9
+      pivot: {x: 0.51282054, y: 0.4385965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243d3f30ef3b2764dba1172492a048eb
+      internalID: 128931196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_6
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 40
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58a9873d1b8fd942bc966d1a8848e6a
+      internalID: -1624220414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 40
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4166667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5b212e52f7c5540a92d196192ed1ed
+      internalID: -1598254154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 40
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1e08034c20b644eb7ee8a08d2f2836
+      internalID: 1559118816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c37c88d0ad66f64485b0c6bccf8a1e3
+      internalID: -1531076877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_11
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 40
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37878788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3704b7ed555324547a30ac8ab8d00889
+      internalID: 666538898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_12
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 80
+        width: 40
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37313432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed919d2cc3992d24495ac657f833eb12
+      internalID: 96204513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 80
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c0caec58ba9c24db8d5d27655a95fd
+      internalID: -1366142378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 40
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.26041666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5ebcaf263918e49a5e53071dcc5a9d
+      internalID: 1270177721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 40
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.36764705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1095a78495e4f488e1a05cea5f7997
+      internalID: -1174179778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 40
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d154e9588e7d64197a2a825409b3ae
+      internalID: -596261570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map_pirate_tile6_17
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 40
+        height: 60
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d99514bbec2bf1418e9e81dc33aa42c
+      internalID: 495129626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
-    physicsShape: []
+    physicsShape:
+    - - {x: 300, y: -22}
+      - {x: 296, y: -18}
+      - {x: 265, y: -18}
+      - {x: 262, y: -19}
+      - {x: 260, y: -22}
+      - {x: 256, y: -18}
+      - {x: 225, y: -18}
+      - {x: 222, y: -19}
+      - {x: 220, y: -22}
+      - {x: 216, y: -18}
+      - {x: 185, y: -18}
+      - {x: 182, y: -19}
+      - {x: 180, y: -22}
+      - {x: 176, y: -18}
+      - {x: 145, y: -18}
+      - {x: 142, y: -20}
+      - {x: 142, y: -18}
+      - {x: 137, y: -14}
+      - {x: 102, y: -14}
+      - {x: 98, y: -18}
+      - {x: 98, y: -23}
+      - {x: 97, y: -19}
+      - {x: 92, y: -14}
+      - {x: 87, y: -12}
+      - {x: 85, y: -12}
+      - {x: 84, y: -11}
+      - {x: 76, y: -11}
+      - {x: 75, y: -12}
+      - {x: 73, y: -12}
+      - {x: 68, y: -14}
+      - {x: 63, y: -19}
+      - {x: 59, y: -28}
+      - {x: 58, y: -38}
+      - {x: 58, y: -5}
+      - {x: 52, y: 1}
+      - {x: 52, y: 7}
+      - {x: 51, y: 10}
+      - {x: 47, y: 14}
+      - {x: 44, y: 15}
+      - {x: 38, y: 15}
+      - {x: 35, y: 14}
+      - {x: 31, y: 10}
+      - {x: 30, y: 7}
+      - {x: 30, y: 2}
+      - {x: 23, y: -5}
+      - {x: 23, y: -37}
+      - {x: 24, y: -38}
+      - {x: 20, y: -38}
+      - {x: 20, y: -31}
+      - {x: 19, y: -30}
+      - {x: 19, y: -26}
+      - {x: 18, y: -25}
+      - {x: 18, y: -23}
+      - {x: 17, y: -20}
+      - {x: 12, y: -15}
+      - {x: 5, y: -12}
+      - {x: -4, y: -12}
+      - {x: -5, y: -13}
+      - {x: -7, y: -13}
+      - {x: -12, y: -15}
+      - {x: -15, y: -18}
+      - {x: -17, y: -23}
+      - {x: -17, y: -25}
+      - {x: -18, y: -26}
+      - {x: -18, y: -30}
+      - {x: -19, y: -33}
+      - {x: -22, y: -30}
+      - {x: -25, y: -30}
+      - {x: -25, y: -29}
+      - {x: -28, y: -26}
+      - {x: -28, y: -25}
+      - {x: -31, y: -22}
+      - {x: -31, y: -21}
+      - {x: -34, y: -17}
+      - {x: -35, y: -16}
+      - {x: -30, y: -17}
+      - {x: -25, y: -15}
+      - {x: -19, y: -9}
+      - {x: -18, y: -6}
+      - {x: -18, y: -2}
+      - {x: 20, y: -2}
+      - {x: 22, y: 0}
+      - {x: 22, y: 64}
+      - {x: 21, y: 67}
+      - {x: 17, y: 71}
+      - {x: 10, y: 74}
+      - {x: 7, y: 74}
+      - {x: 6, y: 75}
+      - {x: -6, y: 75}
+      - {x: -7, y: 74}
+      - {x: -10, y: 74}
+      - {x: -17, y: 71}
+      - {x: -21, y: 67}
+      - {x: -22, y: 64}
+      - {x: -22, y: 11}
+      - {x: -55, y: 11}
+      - {x: -57, y: 13}
+      - {x: -57, y: 14}
+      - {x: -60, y: 17}
+      - {x: -60, y: 18}
+      - {x: -64, y: 23}
+      - {x: -64, y: 32}
+      - {x: -65, y: 35}
+      - {x: -72, y: 42}
+      - {x: -66, y: 42}
+      - {x: -65, y: 41}
+      - {x: -55, y: 41}
+      - {x: -54, y: 42}
+      - {x: -51, y: 42}
+      - {x: -50, y: 43}
+      - {x: -48, y: 43}
+      - {x: -44, y: 45}
+      - {x: -41, y: 45}
+      - {x: -39, y: 47}
+      - {x: -39, y: 70}
+      - {x: -41, y: 72}
+      - {x: -47, y: 72}
+      - {x: -48, y: 71}
+      - {x: -50, y: 71}
+      - {x: -51, y: 70}
+      - {x: -53, y: 70}
+      - {x: -57, y: 68}
+      - {x: -61, y: 68}
+      - {x: -62, y: 69}
+      - {x: -72, y: 70}
+      - {x: -71, y: 72}
+      - {x: -71, y: 76}
+      - {x: -74, y: 80}
+      - {x: -85, y: 80}
+      - {x: -87, y: 79}
+      - {x: -88, y: 76}
+      - {x: -88, y: 72}
+      - {x: -85, y: 67}
+      - {x: -83, y: 66}
+      - {x: -83, y: 48}
+      - {x: -85, y: 45}
+      - {x: -86, y: 43}
+      - {x: -87, y: 43}
+      - {x: -90, y: 40}
+      - {x: -90, y: 39}
+      - {x: -95, y: 35}
+      - {x: -96, y: 32}
+      - {x: -96, y: 20}
+      - {x: -104, y: 11}
+      - {x: -138, y: 11}
+      - {x: -140, y: 9}
+      - {x: -141, y: 10}
+      - {x: -139, y: 12}
+      - {x: -139, y: 17}
+      - {x: -146, y: 23}
+      - {x: -155, y: 23}
+      - {x: -151, y: 26}
+      - {x: -150, y: 29}
+      - {x: -147, y: 32}
+      - {x: -146, y: 35}
+      - {x: -146, y: 39}
+      - {x: -148, y: 42}
+      - {x: -148, y: 48}
+      - {x: -149, y: 51}
+      - {x: -156, y: 58}
+      - {x: -159, y: 59}
+      - {x: -162, y: 61}
+      - {x: -162, y: 63}
+      - {x: -161, y: 64}
+      - {x: -161, y: 68}
+      - {x: -164, y: 72}
+      - {x: -167, y: 73}
+      - {x: -170, y: 73}
+      - {x: -171, y: 74}
+      - {x: -187, y: 74}
+      - {x: -188, y: 73}
+      - {x: -191, y: 73}
+      - {x: -194, y: 72}
+      - {x: -197, y: 68}
+      - {x: -197, y: 64}
+      - {x: -196, y: 63}
+      - {x: -196, y: 61}
+      - {x: -199, y: 59}
+      - {x: -202, y: 58}
+      - {x: -209, y: 51}
+      - {x: -210, y: 48}
+      - {x: -210, y: 42}
+      - {x: -212, y: 39}
+      - {x: -212, y: 35}
+      - {x: -211, y: 32}
+      - {x: -208, y: 29}
+      - {x: -207, y: 26}
+      - {x: -203, y: 23}
+      - {x: -213, y: 23}
+      - {x: -219, y: 18}
+      - {x: -220, y: 18}
+      - {x: -226, y: 23}
+      - {x: -238, y: 23}
+      - {x: -240, y: 24}
+      - {x: -240, y: 26}
+      - {x: -238, y: 26}
+      - {x: -236, y: 27}
+      - {x: -235, y: 29}
+      - {x: -231, y: 31}
+      - {x: -231, y: 33}
+      - {x: -228, y: 34}
+      - {x: -227, y: 37}
+      - {x: -227, y: 41}
+      - {x: -229, y: 46}
+      - {x: -234, y: 47}
+      - {x: -232, y: 48}
+      - {x: -230, y: 48}
+      - {x: -227, y: 51}
+      - {x: -227, y: 52}
+      - {x: -224, y: 54}
+      - {x: -224, y: 56}
+      - {x: -223, y: 57}
+      - {x: -223, y: 63}
+      - {x: -225, y: 68}
+      - {x: -230, y: 70}
+      - {x: -238, y: 70}
+      - {x: -239, y: 69}
+      - {x: -241, y: 69}
+      - {x: -242, y: 73}
+      - {x: -246, y: 78}
+      - {x: -249, y: 79}
+      - {x: -252, y: 79}
+      - {x: -253, y: 80}
+      - {x: -266, y: 80}
+      - {x: -267, y: 79}
+      - {x: -270, y: 79}
+      - {x: -274, y: 77}
+      - {x: -274, y: 80}
+      - {x: -281, y: 80}
+      - {x: -281, y: 70}
+      - {x: -290, y: 70}
+      - {x: -295, y: 67}
+      - {x: -296, y: 64}
+      - {x: -296, y: 57}
+      - {x: -295, y: 56}
+      - {x: -295, y: 54}
+      - {x: -289, y: 48}
+      - {x: -285, y: 47}
+      - {x: -288, y: 47}
+      - {x: -291, y: 44}
+      - {x: -291, y: 42}
+      - {x: -292, y: 41}
+      - {x: -292, y: 37}
+      - {x: -287, y: 30}
+      - {x: -286, y: 30}
+      - {x: -283, y: 26}
+      - {x: -281, y: 26}
+      - {x: -280, y: 25}
+      - {x: -280, y: 23}
+      - {x: -293, y: 23}
+      - {x: -300, y: 17}
+      - {x: -300, y: -21}
+      - {x: -297, y: -26}
+      - {x: -294, y: -27}
+      - {x: -288, y: -27}
+      - {x: -286, y: -25}
+      - {x: -286, y: -26}
+      - {x: -287, y: -27}
+      - {x: -287, y: -38}
+      - {x: -300, y: -38}
+      - {x: -300, y: -80}
+      - {x: 300, y: -80}
+    - - {x: 262, y: 0}
+      - {x: 262, y: 46}
+      - {x: 257, y: 51}
+      - {x: 256, y: 51}
+      - {x: 255, y: 52}
+      - {x: 255, y: 53}
+      - {x: 251, y: 58}
+      - {x: 248, y: 59}
+      - {x: 245, y: 59}
+      - {x: 244, y: 60}
+      - {x: 238, y: 60}
+      - {x: 237, y: 59}
+      - {x: 234, y: 59}
+      - {x: 231, y: 58}
+      - {x: 227, y: 53}
+      - {x: 227, y: 52}
+      - {x: 226, y: 51}
+      - {x: 223, y: 51}
+      - {x: 220, y: 49}
+      - {x: 218, y: 51}
+      - {x: 182, y: 51}
+      - {x: 180, y: 49}
+      - {x: 179, y: 49}
+      - {x: 176, y: 52}
+      - {x: 144, y: 52}
+      - {x: 141, y: 49}
+      - {x: 138, y: 52}
+      - {x: 102, y: 52}
+      - {x: 101, y: 51}
+      - {x: 100, y: 53}
+      - {x: 97, y: 61}
+      - {x: 92, y: 66}
+      - {x: 87, y: 68}
+      - {x: 85, y: 68}
+      - {x: 84, y: 69}
+      - {x: 76, y: 69}
+      - {x: 75, y: 68}
+      - {x: 73, y: 68}
+      - {x: 68, y: 66}
+      - {x: 63, y: 61}
+      - {x: 59, y: 52}
+      - {x: 59, y: 48}
+      - {x: 58, y: 47}
+      - {x: 58, y: 0}
+      - {x: 60, y: -2}
+      - {x: 260, y: -2}
+    - - {x: -151, y: -37}
+      - {x: -151, y: -28}
+      - {x: -145, y: -28}
+      - {x: -138, y: -21}
+      - {x: -138.77777, y: -13.222229}
+      - {x: -138, y: -14}
+      - {x: -138, y: -16}
+      - {x: -134, y: -20}
+      - {x: -133, y: -20}
+      - {x: -131, y: -22}
+      - {x: -125, y: -22}
+      - {x: -128, y: -25}
+      - {x: -128, y: -26}
+      - {x: -131, y: -29}
+      - {x: -131, y: -30}
+      - {x: -134, y: -32}
+      - {x: -135, y: -33}
+      - {x: -138, y: -33}
+      - {x: -142, y: -37}
+    - - {x: -231, y: -37}
+      - {x: -231, y: -28}
+      - {x: -225, y: -28}
+      - {x: -220, y: -23}
+      - {x: -217, y: -27}
+      - {x: -214, y: -28}
+      - {x: -208, y: -28}
+      - {x: -208, y: -37}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -135,7 +844,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      map_pirate_tile6_0: 1513957540
+      map_pirate_tile6_1: 255297698
+      map_pirate_tile6_10: -1531076877
+      map_pirate_tile6_11: 666538898
+      map_pirate_tile6_12: 96204513
+      map_pirate_tile6_13: -1366142378
+      map_pirate_tile6_14: 1270177721
+      map_pirate_tile6_15: -1174179778
+      map_pirate_tile6_16: -596261570
+      map_pirate_tile6_17: 495129626
+      map_pirate_tile6_2: 736505042
+      map_pirate_tile6_3: -131836980
+      map_pirate_tile6_4: -1347198314
+      map_pirate_tile6_5: 128931196
+      map_pirate_tile6_6: -1624220414
+      map_pirate_tile6_7: -1598254154
+      map_pirate_tile6_8: 1559118816
+      map_pirate_tile6_9: 1370992308
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

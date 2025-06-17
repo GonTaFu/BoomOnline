@@ -1,0 +1,1823 @@
+fileFormatVersion: 2
+guid: 834c524eedd963649839c21ae63ba3a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Marid_0
+  - first:
+      213: 21300002
+    second: Marid_1
+  - first:
+      213: 21300004
+    second: Marid_2
+  - first:
+      213: 21300006
+    second: Marid_3
+  - first:
+      213: 21300008
+    second: Marid_4
+  - first:
+      213: 21300010
+    second: Marid_5
+  - first:
+      213: 21300012
+    second: Marid_6
+  - first:
+      213: 21300014
+    second: Marid_7
+  - first:
+      213: 21300016
+    second: Marid_8
+  - first:
+      213: 21300018
+    second: Marid_9
+  - first:
+      213: 21300020
+    second: Marid_10
+  - first:
+      213: 21300022
+    second: Marid_11
+  - first:
+      213: 21300024
+    second: Marid_12
+  - first:
+      213: 21300026
+    second: Marid_13
+  - first:
+      213: 21300028
+    second: Marid_14
+  - first:
+      213: 21300030
+    second: Marid_15
+  - first:
+      213: 21300032
+    second: Marid_16
+  - first:
+      213: 21300034
+    second: Marid_17
+  - first:
+      213: 21300036
+    second: Marid_18
+  - first:
+      213: 21300038
+    second: Marid_19
+  - first:
+      213: 21300040
+    second: Marid_20
+  - first:
+      213: 21300042
+    second: Marid_21
+  - first:
+      213: 21300044
+    second: Marid_22
+  - first:
+      213: 21300046
+    second: Marid_23
+  - first:
+      213: 21300048
+    second: Marid_24
+  - first:
+      213: 21300050
+    second: Marid_25
+  - first:
+      213: 21300052
+    second: Marid_26
+  - first:
+      213: 21300054
+    second: Marid_27
+  - first:
+      213: 21300056
+    second: Marid_28
+  - first:
+      213: 21300058
+    second: Marid_29
+  - first:
+      213: 21300060
+    second: Marid_30
+  - first:
+      213: 21300062
+    second: Marid_31
+  - first:
+      213: 21300064
+    second: Marid_32
+  - first:
+      213: 21300066
+    second: Marid_33
+  - first:
+      213: 21300068
+    second: Marid_34
+  - first:
+      213: 21300070
+    second: Marid_35
+  - first:
+      213: 21300072
+    second: Marid_36
+  - first:
+      213: 21300074
+    second: Marid_37
+  - first:
+      213: 21300076
+    second: Marid_38
+  - first:
+      213: 21300078
+    second: Marid_39
+  - first:
+      213: 21300080
+    second: Marid_40
+  - first:
+      213: 21300082
+    second: Marid_41
+  - first:
+      213: 21300084
+    second: Marid_42
+  - first:
+      213: 21300086
+    second: Marid_43
+  - first:
+      213: 21300088
+    second: Marid_44
+  - first:
+      213: 21300090
+    second: Marid_45
+  - first:
+      213: 21300092
+    second: Marid_46
+  - first:
+      213: 21300094
+    second: Marid_47
+  - first:
+      213: 21300096
+    second: Marid_48
+  - first:
+      213: 21300098
+    second: Marid_49
+  - first:
+      213: 21300100
+    second: Marid_50
+  - first:
+      213: 21300102
+    second: Marid_51
+  - first:
+      213: 21300104
+    second: Marid_52
+  - first:
+      213: 21300106
+    second: Marid_53
+  - first:
+      213: 21300108
+    second: Marid_54
+  - first:
+      213: 21300110
+    second: Marid_55
+  - first:
+      213: 21300112
+    second: Marid_56
+  - first:
+      213: 21300114
+    second: Marid_57
+  - first:
+      213: 21300116
+    second: Marid_58
+  - first:
+      213: 21300118
+    second: Marid_59
+  - first:
+      213: 21300120
+    second: Marid_60
+  - first:
+      213: 21300122
+    second: Marid_61
+  - first:
+      213: 21300124
+    second: Marid_62
+  - first:
+      213: 21300126
+    second: Marid_63
+  - first:
+      213: 21300128
+    second: Marid_64
+  - first:
+      213: 21300130
+    second: Marid_65
+  - first:
+      213: 21300132
+    second: Marid_66
+  - first:
+      213: 21300134
+    second: Marid_67
+  - first:
+      213: 21300136
+    second: Marid_68
+  - first:
+      213: 21300138
+    second: Marid_69
+  - first:
+      213: 21300140
+    second: Marid_70
+  - first:
+      213: 21300142
+    second: Marid_71
+  - first:
+      213: 21300144
+    second: Marid_72
+  - first:
+      213: 21300146
+    second: Marid_73
+  - first:
+      213: 21300148
+    second: Marid_74
+  - first:
+      213: 21300150
+    second: Marid_75
+  - first:
+      213: 21300152
+    second: Marid_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Marid_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 726
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7789a44faa7024ab100f1f62f7346a
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 726
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d752c269ecb13434f8d3a3424edcbccd
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_2
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 726
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c559ecdddcb49a44b9bcc5c88bf28d0
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 694
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7c64559ae5e93449e492de91b0629f
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 694
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797bc3d8a24ca6d4cb0f31a2eb781321
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_5
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 694
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f562e1dd2d705604fa2a16a02c0a7557
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_6
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 623
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07d6e8d3c7225243b0b8dfb736115aa
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 623
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e87132154726964f8168cb76a547050
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_8
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 627
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2efcb8c7fbc25844bd7eb554e2cf703
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_9
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 627
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defffae22e6099d43b53400616fe0893
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_10
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 627
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfed8fdeeb27c648a5ebe14509e1046
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 552
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6f419d4cb73754989795b33500baea
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 552
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adaf54a424e9cf44c8f83fba1654a2bd
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_13
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 552
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ec3f544bd0b484d98c6f0f067120bc
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_14
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 552
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0397c6fbe7dfeb04da034dddb6476939
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 552
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc85491fe18279d458d965e16dc44609
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_16
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 552
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7d6d044f9c7014295c18bf222090ac
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_17
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 481
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ec84a114e07894ab9093ca2b930982
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_18
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 481
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50bf6cee021fa447ac5e48d170cdd6f
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_19
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 481
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d340701a4a7156c4c9c219a3f892210e
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_20
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 481
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06dcc005c23da642958878ed36fa02e
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_21
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 481
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86549c4b799f6fe4c81255bb8b4c4f4e
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_22
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 481
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c59469b7e88954682431c922551d0d
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 410
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6baa5038fd7a8734fa00c5d6ef2f99a6
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_24
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 410
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db003e7549f06484aa3f3bdbe866614f
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_25
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 393
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5aa3ed39b626544ab591119b374729
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_26
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 400
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d9569636cee294c9df2bff9e5a71bd
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_27
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 389
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1975531db0ec2e4c8318e5d6aa18f96
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_34
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 397
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a01901fc1eecb409d44139c3b64f97
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_35
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 315
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5804514955e392e488d448ee1eb031c8
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_36
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 322
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7551ab631264f054daca2444e9841fb4
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_37
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 307
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d476395666f1a994bb79f6f8acb0b047
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_40
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 322
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e75ab1ae074d6544a960d0216d3338a
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_42
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 322
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194e7f7df7a53fe488671ad427349a8f
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_43
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 322
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befb81343f037794d8413e3e9f82f7e8
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 198
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4092e1f079b7790438d7f0d41873e23b
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_50
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 198
+        width: 50
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a1dc4dea707da4a8b91e65a914c7fa
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_51
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 197
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e4568f0c82f3e44ae412db28f2708d
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_52
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 198
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f523f2385c0e264fa077f3236e6ae69
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_53
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 214
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d59d4d356d375744bd2180c791ce0ea
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_54
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 211
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7fa5a0aa4d2664d8d064c5150a6e61
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_55
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 127
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffb9db6ecf48e54095f6c72be6e5079
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_56
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 127
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe6a3a240dc9c747b29254ddc0e44b1
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_57
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 127
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e96efe21168a0f4392244a9568ed56f
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_58
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 127
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2c62ce81ecf79468188555e256f134
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_59
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 151
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f409e2815497d64396a691c9197fad0
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_60
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 151
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c17090e882c2e47a75c10d80cc92c2
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_61
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 152
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08e748441a12304faf291ed985293ca
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_62
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 152
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eefd3606260b2d4dbda333fdc7eb624
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_63
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 133
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243926c860e93f24ca521b9dda0944d4
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_64
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 133
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94982cdd126586e4c98999a8a51af3df
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_65
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 101
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7a43185d34df540af850f3a32053ee
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_66
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 100
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d5e6f99c3e7bc4590597c1de7524c0
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_67
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 101
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f699c8800efd448ac9dc6b387ccbfd
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_68
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 104
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51129c0f78ffc574588eefd7309e4e1e
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_69
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 59
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15258731d7766241982cebfe3a86693
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_70
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 56
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830f2f2c5188af140b746fc7299086d6
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_71
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 56
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d410c9b00d23d64a9b903fda2e76519
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_72
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 56
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a87be4d13ee594cbb730a10a92635c
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_73
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 78
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2c0187987611c45bce0e2749d73b6f
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_74
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 76
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a430dc57740a77c468ce403ac6c01760
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_75
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 61
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775c9da2e234c624e8ef8232c0eb1cfc
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marid_76
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 63
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3160f94965f31544dbba7e718d6b9a9e
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8fe5dec351b402e4998ab2aca479562e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Marid_0: 21300000
+      Marid_1: 21300002
+      Marid_10: 21300020
+      Marid_11: 21300022
+      Marid_12: 21300024
+      Marid_13: 21300026
+      Marid_14: 21300028
+      Marid_15: 21300030
+      Marid_16: 21300032
+      Marid_17: 21300034
+      Marid_18: 21300036
+      Marid_19: 21300038
+      Marid_2: 21300004
+      Marid_20: 21300040
+      Marid_21: 21300042
+      Marid_22: 21300044
+      Marid_23: 21300046
+      Marid_24: 21300048
+      Marid_25: 21300050
+      Marid_26: 21300052
+      Marid_27: 21300054
+      Marid_3: 21300006
+      Marid_34: 21300068
+      Marid_35: 21300070
+      Marid_36: 21300072
+      Marid_37: 21300074
+      Marid_4: 21300008
+      Marid_40: 21300080
+      Marid_42: 21300084
+      Marid_43: 21300086
+      Marid_49: 21300098
+      Marid_5: 21300010
+      Marid_50: 21300100
+      Marid_51: 21300102
+      Marid_52: 21300104
+      Marid_53: 21300106
+      Marid_54: 21300108
+      Marid_55: 21300110
+      Marid_56: 21300112
+      Marid_57: 21300114
+      Marid_58: 21300116
+      Marid_59: 21300118
+      Marid_6: 21300012
+      Marid_60: 21300120
+      Marid_61: 21300122
+      Marid_62: 21300124
+      Marid_63: 21300126
+      Marid_64: 21300128
+      Marid_65: 21300130
+      Marid_66: 21300132
+      Marid_67: 21300134
+      Marid_68: 21300136
+      Marid_69: 21300138
+      Marid_7: 21300014
+      Marid_70: 21300140
+      Marid_71: 21300142
+      Marid_72: 21300144
+      Marid_73: 21300146
+      Marid_74: 21300148
+      Marid_75: 21300150
+      Marid_76: 21300152
+      Marid_8: 21300016
+      Marid_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

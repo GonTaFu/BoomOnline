@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 4522033289858139601}
   - component: {fileID: 6516643173042191079}
   - component: {fileID: 4952176627422932460}
+  - component: {fileID: 4151717369723572300}
   m_Layer: 0
   m_Name: bazziChar
   m_TagString: Untagged
@@ -197,4 +198,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2892d7cd948998d4c8d9ea212a74d0f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerAnim: {fileID: 4151717369723572300}
   moveSpeed: 5
+--- !u!95 &4151717369723572300
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4768818189283638598}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8725df73050b4c34db153858d6b35bc6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

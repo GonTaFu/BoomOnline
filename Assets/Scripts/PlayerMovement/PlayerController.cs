@@ -16,7 +16,7 @@ public class PlayerMovement : NetworkBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            RequestPlaceBombRpc(new Vector3Int(1, 1, 1), NetworkObjectId);
+            RequestPlaceBombRpc(new Vector3Int(1, 3, 1), NetworkObjectId);
         }
     }
 

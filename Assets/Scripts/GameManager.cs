@@ -1,21 +1,16 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
-
-public class LevelLoader : MonoBehaviour
+using UnityEngine.SceneManagement;
+using System.Collections.Generic;
+using System.Collections;
+using System.Linq;
+using Unity.Netcode;
+public class LevelLoader : NetworkBehaviour
 {
     [Header("Tile Assets")]
-    [SerializeField] private TileBase blockTile;      // Wall
-    [SerializeField] private TileBase brickTile;      // Brick
-    [SerializeField] private TileBase grassTile;      // Grass
-
-    [Header("Prefabs")]
-    // [SerializeField] private GameObject bomberPrefab;
-    // [SerializeField] private GameObject balloonPrefab;
-    // [SerializeField] private GameObject enemyPrefab2;
-    // [SerializeField] private GameObject portalPrefab;
-    // [SerializeField] private GameObject bombItemPrefab;
-    // [SerializeField] private GameObject flameItemPrefab;
-    // [SerializeField] private GameObject speedItemPrefab;
+    [SerializeField] private Tile blockTile;      // Wall
+    [SerializeField] private Tile brickTile;      // Brick
+    [SerializeField] private Tile grassTile;      // Grass
 
     [Header("Map Settings")]
     [SerializeField] private int width = 20;
@@ -26,97 +21,242 @@ public class LevelLoader : MonoBehaviour
     [SerializeField] private Tilemap destructionTilemap;
     [SerializeField] private Tilemap indestructionTilemap;
 
-    private void Start()
+    // Dictionary<Vector2Int, char> dataLoadMap = new Dictionary<Vector2Int, char>(); // tạm ẩn
+    char[,] mapData;
+
+    public override void OnNetworkSpawn()
     {
-        LoadRandomLevel();
+        if (IsServer)
+        {
+            LoadRandomLevel();
+        }
+        else
+        {
+            LoadMapFromData(mapData);
+        }
     }
 
     private void LoadRandomLevel()
     {
-        bool bomberSpawned = false;
-        // bool portalSpawned = false;
+        int rows = 13;
+        int columns = 31;
+        char[,] map = GenerateRandomMap(rows, columns);
+        mapData = map;
 
-        for (int y = 0; y < height; y++)
+        ApplyMap(map); // Host tự hiển thị
+        string[] stringMap = CharArrayToStringArray(map);
+        SendMapToClientsClientRpc(stringMap);
+    }
+
+    [ClientRpc] // cái này 
+    private void SendMapToClientsClientRpc(string[] stringMap)
+    {
+        if (IsServer) return; // Host đã có rồi
+        char[,] receivedMap = StringArrayToCharArray(stringMap);
+        ApplyMap(receivedMap);
+    }
+
+    private void ApplyMap(char[,] map)
+    {
+        int rows = map.GetLength(0);
+        int columns = map.GetLength(1);
+
+        for (int row = 0; row < rows; row++)
         {
-            for (int x = 0; x < width; x++)
+            for (int col = 0; col < columns; col++)
             {
-                Vector3Int tilePos = new Vector3Int(x, y, 0);
-                float rand = Random.value;
+                char type = map[row, col];
+                Vector3Int tilePos = new Vector3Int(col - 1, -row - 1, 0);
+                Vector3 worldPos = new Vector3(col, -row, 0);
 
-                // Đặt nền (grass) vào floor luôn
-                floorTilemap.SetTile(tilePos, grassTile);
-
-                // Tường viền không phá được
-                if (x == 0 || x == width - 1 || y == 0 || y == height - 1)
+                switch (type)
                 {
-                    indestructionTilemap.SetTile(tilePos, blockTile);
-                    continue;
+                    case '*':
+                        SetTile(destructionTilemap, brickTile, tilePos);
+                        break;
+                    case '#':
+                        SetTile(indestructionTilemap, blockTile, tilePos);
+                        break;
+                }
+            }
+        }
+    }
+
+
+    private void LoadMapFromData(char[,] map)
+    {
+        int rows = 13;
+        int columns = 31;
+        for (int row = 0; row < rows; row++)
+        {
+            for (int col = 0; col < columns; col++)
+            {
+                char type = map[row, col];
+                Vector3Int tilePos = new Vector3Int(col - 1, -row - 1, 0);
+                Vector3 worldPos = new Vector3(col, -row, 0);
+                switch (type)
+                {
+                    case '*':
+                        Debug.Log("*");
+                        SetTile(destructionTilemap, brickTile, tilePos);
+                        // SpawnItemWithBrick(tilePos, worldPos);
+                        break;
+                    case '#':
+                        Debug.Log("#");
+                        SetTile(indestructionTilemap, blockTile, tilePos);
+                        break;
                 }
 
-                GameObject prefabToSpawn = null;
+            }
+        }
+    }
 
-                if (rand < 0.1f)
-                {
-                    indestructionTilemap.SetTile(tilePos, blockTile);
-                }
-                else if (rand < 0.3f)
-                {
-                    destructionTilemap.SetTile(tilePos, brickTile);
-                }
-                else
-                {
-                    float entityRand = Random.value;
+    private char[,] GenerateRandomMap(int rows, int columns)
+    {
+        char[,] map = new char[rows, columns];
 
-                    if (!bomberSpawned && entityRand < 0.05f)
+        // Khởi tạo toàn bộ bản đồ là cỏ (' ')
+        for (int row = 0; row < rows; row++)
+        {
+            for (int col = 0; col < columns; col++)
+            {
+                map[row, col] = ' ';
+            }
+        }
+
+        // Đặt tường không thể phá hủy (#) ở biên
+        for (int row = 0; row < rows; row++)
+        {
+            map[row, 0] = '#';
+            map[row, columns - 1] = '#';
+        }
+        for (int col = 0; col < columns; col++)
+        {
+            map[0, col] = '#';
+            map[rows - 1, col] = '#';
+        }
+
+        // Đặt tường không thể phá hủy (#) ở lưới 2x2
+        for (int row = 2; row < rows - 1; row += 2)
+        {
+            for (int col = 2; col < columns - 1; col += 2)
+            {
+                map[row, col] = '#';
+            }
+        }
+
+        // Đặt người chơi (p) ở góc trên bên trái
+        map[1, 1] = 'p';
+        map[1, 2] = ' ';
+        map[2, 1] = ' ';
+        map[2, 2] = ' ';
+
+        map[1, 3] = '*';
+        map[2, 3] = '*';
+        map[3, 3] = '*';
+        map[3, 1] = '*';
+        map[2, 1] = '*';
+        map[3, 1] = '*';
+
+        // Đặt gạch có thể phá hủy (*) ở các vị trí ngẫu nhiên, trừ vùng an toàn quanh người chơi
+        float brickChance = 0.5f;
+        for (int row = 1; row < rows - 1; row++)
+        {
+            for (int col = 1; col < columns - 1; col++)
+            {
+                // Chỉ đặt gạch ở các ô trống và không nằm trong vùng an toàn (1,2), (2,1), (2,2), (1,3), (2,3), (3,1), (3,2)
+                if (map[row, col] == ' ' &&
+                    !(row == 1 && col == 2) &&
+                    !(row == 2 && col == 1) &&
+                    !(row == 2 && col == 2) &&
+                    !(row == 1 && col == 3) &&
+                    !(row == 2 && col == 3) &&
+                    !(row == 3 && col == 1) &&
+                    !(row == 3 && col == 2))
+                {
+                    if (Random.value < brickChance)
                     {
-                        // prefabToSpawn = bomberPrefab;
-                        bomberSpawned = true;
+                        map[row, col] = '*';
                     }
-                    // else if (!portalSpawned && entityRand < 0.1f)
-                    // {
-                    //     prefabToSpawn = portalPrefab;
-                    //     portalSpawned = true;
-                    // }
-                    // else if (entityRand < 0.2f)
-                    // {
-                    //     prefabToSpawn = balloonPrefab;
-                    // }
-                    // else if (entityRand < 0.25f)
-                    // {
-                    //     prefabToSpawn = enemyPrefab2;
-                    // }
-                    // else if (entityRand < 0.3f)
-                    // {
-                    //     prefabToSpawn = bombItemPrefab;
-                    // }
-                    // else if (entityRand < 0.35f)
-                    // {
-                    //     prefabToSpawn = flameItemPrefab;
-                    // }
-                    // else if (entityRand < 0.4f)
-                    // {
-                    //     prefabToSpawn = speedItemPrefab;
-                    // }
-                }
-
-                if (prefabToSpawn != null)
-                {
-                    Instantiate(prefabToSpawn, floorTilemap.GetCellCenterWorld(tilePos), Quaternion.identity);
                 }
             }
         }
 
-        // Đảm bảo có Bomber và Portal
-        // if (!bomberSpawned)
-        // {
-        //     Vector3Int pos = new Vector3Int(1, 1, 0);
-        //     Instantiate(bomberPrefab, floorTilemap.GetCellCenterWorld(pos), Quaternion.identity);
-        // }
-
-        // if (!portalSpawned)
-        // {
-        //     Vector3Int pos = new Vector3Int(width - 2, height - 2, 0);
-        //     Instantiate(portalPrefab, floorTilemap.GetCellCenterWorld(pos), Quaternion.identity);
-        // }
+        return map;
     }
+
+    private Vector2Int GetRandomEmptyPosition(char[,] map, int rows, int columns)
+    {
+        List<Vector2Int> emptyPositions = new List<Vector2Int>();
+        for (int row = 1; row < rows - 1; row++)
+        {
+            for (int col = 1; col < columns - 1; col++)
+            {
+                // Chỉ thêm các ô trống và không nằm trong vùng an toàn (1,2), (2,1), (2,2), (1,3), (2,3), (3,1), (3,2)
+                if (map[row, col] == ' ' &&
+                    !(row == 1 && col == 2) &&
+                    !(row == 2 && col == 1) &&
+                    !(row == 2 && col == 2) &&
+                    !(row == 1 && col == 3) &&
+                    !(row == 2 && col == 3) &&
+                    !(row == 3 && col == 1) &&
+                    !(row == 3 && col == 2))
+                {
+                    emptyPositions.Add(new Vector2Int(col, row));
+                }
+            }
+        }
+
+        if (emptyPositions.Count == 0)
+        {
+            Debug.LogError("No empty positions available for spawning!");
+            return new Vector2Int(1, 1);
+        }
+
+        int index = Random.Range(0, emptyPositions.Count);
+        return emptyPositions[index];
+    }
+
+    private void SetTile(Tilemap tilemap, Tile tile, Vector3Int pos)
+    {
+        if (tilemap == null)
+        {
+            Debug.LogError("Tilemap is not assigned.");
+            return;
+        }
+        tilemap.SetTile(pos, tile);
+    }
+
+    private string[] CharArrayToStringArray(char[,] map)
+    {
+        int rows = map.GetLength(0);
+        int cols = map.GetLength(1);
+        string[] result = new string[rows];
+        for (int row = 0; row < rows; row++)
+        {
+            char[] rowChars = new char[cols];
+            for (int col = 0; col < cols; col++)
+            {
+                rowChars[col] = map[row, col];
+            }
+            result[row] = new string(rowChars);
+        }
+        return result;
+    }
+
+    private char[,] StringArrayToCharArray(string[] lines)
+    {
+        int rows = lines.Length;
+        int cols = lines[0].Length;
+        char[,] map = new char[rows, cols];
+        for (int row = 0; row < rows; row++)
+        {
+            for (int col = 0; col < cols; col++)
+            {
+                map[row, col] = lines[row][col];
+            }
+        }
+        return map;
+    }
+
 }

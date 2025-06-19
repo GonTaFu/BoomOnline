@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4178825421173888500}
   - component: {fileID: 4988435419051983657}
   - component: {fileID: 4177128257040767098}
-  - component: {fileID: -7254990681318128846}
+  - component: {fileID: 6550814672889191128}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Untagged
@@ -148,7 +148,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-7254990681318128846
+--- !u!114 &6550814672889191128
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,16 +157,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 8660968421052362839}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f5153fdf3ce0d4397d1e4f145426ce, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c5de7f14c56ce9499f8b037645adc2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilemap: {fileID: 0}
-  obstacleMask:
-    serializedVersion: 2
-    m_Bits: 64
-  bombPrefab: {fileID: 8660968421052362839}
-  bombAmount: 1
-  bombRemaining: 0
-  explosionPrefab: {fileID: 0}
-  explosionTime: 1
-  ExplosionRadius: 1
+  bombCollider: {fileID: 4988435419051983657}
+  bomberCollider: {fileID: 0}
+  timeDestory: 0
+  tileDestruction: {fileID: 0}
+  tileIndestructions: {fileID: 0}
+  flameStartPrefab: {fileID: 2267526789674121845, guid: 0fd7f201e8e662a468859ac845b0ec76, type: 3}
+  flameMiddlePrefab: {fileID: 1607645505546879899, guid: 4ff0d89d3f77d944a9c21f3e6e79c7a7, type: 3}
+  flameEndPrefab: {fileID: 6433013918802524195, guid: 40119aa2ca8b0c94fa25e78b62d26b4e, type: 3}
+  brickDestroyPrefab: {fileID: 0}
+  rangeDestruct: 1

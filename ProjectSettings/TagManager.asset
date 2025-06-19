@@ -5,8 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Floor
-  - Indestruction
-  - Destruction
+  - Destructable
+  - Indestructable
   layers:
   - Default
   - TransparentFX
@@ -14,7 +14,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Destructable
   - 
   - 
   - 

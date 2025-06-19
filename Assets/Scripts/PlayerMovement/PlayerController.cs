@@ -6,6 +6,8 @@ public class PlayerMovement : MonoBehaviour
     private float HorizontalInput;
     private float VerticalInput;
 
+    public GameObject bomberPrefab;
+
     public Animator playerAnim;
     [SerializeField] float moveSpeed = 5f;
     void Start()
@@ -31,13 +33,21 @@ public class PlayerMovement : MonoBehaviour
         playerAnim.SetFloat("MoveY", VerticalInput);
 
         if (HorizontalInput == 0 && VerticalInput == 0)
-        {
+        {   
             playerAnim.SetBool("isMoving", false);
         }
         else
         {
             playerAnim.SetBool("isMoving", true);
         }
+        // placeBomb();
     }
 
+    // private void placeBomb()
+    // {
+    //     if (Input.GetKeyDown(KeyCode.Space))
+    //     {
+    //         Instantiate(bomberPrefab, transform.position, Quaternion.identity);
+    //     }
+    // }
 }

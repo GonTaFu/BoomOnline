@@ -9,7 +9,7 @@ public class LevelLoader : MonoBehaviour
     [SerializeField] private TileBase grassTile;      // Grass
 
     [Header("Prefabs")]
-    [SerializeField] private GameObject bomberPrefab;
+    // [SerializeField] private GameObject bomberPrefab;
     // [SerializeField] private GameObject balloonPrefab;
     // [SerializeField] private GameObject enemyPrefab2;
     // [SerializeField] private GameObject portalPrefab;
@@ -69,7 +69,7 @@ public class LevelLoader : MonoBehaviour
 
                     if (!bomberSpawned && entityRand < 0.05f)
                     {
-                        prefabToSpawn = bomberPrefab;
+                        // prefabToSpawn = bomberPrefab;
                         bomberSpawned = true;
                     }
                     // else if (!portalSpawned && entityRand < 0.1f)
@@ -107,11 +107,11 @@ public class LevelLoader : MonoBehaviour
         }
 
         // Đảm bảo có Bomber và Portal
-        if (!bomberSpawned)
-        {
-            Vector3Int pos = new Vector3Int(1, 1, 0);
-            Instantiate(bomberPrefab, floorTilemap.GetCellCenterWorld(pos), Quaternion.identity);
-        }
+        // if (!bomberSpawned)
+        // {
+        //     Vector3Int pos = new Vector3Int(1, 1, 0);
+        //     Instantiate(bomberPrefab, floorTilemap.GetCellCenterWorld(pos), Quaternion.identity);
+        // }
 
         // if (!portalSpawned)
         // {

@@ -7,6 +7,8 @@ public class PlayerMovement : NetworkBehaviour
     private float HorizontalInput;
     private float VerticalInput;
 
+    public bool inBubble = false;
+
     public GameObject bomberPrefab;
 
     public Animator playerAnim;

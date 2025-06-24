@@ -146,7 +146,7 @@ Transform:
   m_GameObject: {fileID: 70872078}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1045779, y: 0.2463185, z: -0.017063236}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -326,7 +326,11 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 0
@@ -336,30 +340,30 @@ Tilemap:
   m_TileMatrixArray:
   - m_RefCount: 0
     m_Data:
-      e00: 6.695478e+14
+      e00: 3.6232e-41
       e01: 0
       e02: 1e-45
       e03: -2.9710591e+29
-      e10: 9.42e-43
+      e10: 1e-45
       e11: 0
       e12: 0
       e13: 9.36e-43
       e20: 3.4633963e+16
       e21: -2.9710591e+29
       e22: 8.419e-40
-      e23: 0.000000007265573
+      e23: 0.000000004941004
       e30: 4.5908e-41
       e31: 9.36e-43
       e32: 9.4e-43
       e33: 9.37e-43
   m_TileColorArray:
   - m_RefCount: 0
-    m_Data: {r: 0.0000000072655553, g: 0.0000000072655553, b: 0.0000000072655553, a: 0.0000000072655553}
+    m_Data: {r: 0.0000000049409863, g: 0.0000000049409863, b: 0.0000000049409863, a: 0.0000000049409863}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: -3, z: 0}
-  m_Size: {x: 7, y: 3, z: 1}
+  m_Origin: {x: -8, y: -4, z: 0}
+  m_Size: {x: 15, y: 7, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 6
   m_TileOrientationMatrix:
@@ -777,7 +781,7 @@ Transform:
   m_GameObject: {fileID: 1116751066}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6120746, y: -1.4876205, z: 0.07853026}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -795,9 +799,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476d2111b7b8d25438e1175bd97966bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockTile: {fileID: 0}
-  brickTile: {fileID: 0}
-  grassTile: {fileID: 11400000, guid: 83b0bd261bfd53b4aa148cb98127c3b0, type: 2}
+  blockTile: {fileID: 11400000, guid: 56da228ad1177164e9f0db622d34dd0e, type: 2}
+  brickTile: {fileID: 11400000, guid: a8293717234af7640ba0cc8a2b2ad362, type: 2}
+  grassTile: {fileID: 11400000, guid: 94b8a429b99b50243af344286c81b22a, type: 2}
   width: 20
   height: 20
   floorTilemap: {fileID: 256175572}

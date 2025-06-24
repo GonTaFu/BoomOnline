@@ -336,25 +336,25 @@ Tilemap:
   m_TileMatrixArray:
   - m_RefCount: 0
     m_Data:
-      e00: -7.817844e-10
+      e00: 6.695478e+14
       e01: 0
       e02: 1e-45
-      e03: -1.0285598e-38
-      e10: 4.5912e-41
+      e03: -2.9710591e+29
+      e10: 9.42e-43
       e11: 0
       e12: 0
-      e13: 7.33e-43
-      e20: -7.6066176e-10
-      e21: -1.0285598e-38
-      e22: 2.723414e+9
-      e23: 1.5845844e-18
-      e30: 4.5912e-41
-      e31: 7.33e-43
-      e32: 7.34e-43
-      e33: 7.34e-43
+      e13: 9.36e-43
+      e20: 3.4633963e+16
+      e21: -2.9710591e+29
+      e22: 8.419e-40
+      e23: 0.000000007265573
+      e30: 4.5908e-41
+      e31: 9.36e-43
+      e32: 9.4e-43
+      e33: 9.37e-43
   m_TileColorArray:
   - m_RefCount: 0
-    m_Data: {r: 1.5845803e-18, g: 1.5845803e-18, b: 1.5845803e-18, a: 1.5845803e-18}
+    m_Data: {r: 0.0000000072655553, g: 0.0000000072655553, b: 0.0000000072655553, a: 0.0000000072655553}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -363,12 +363,12 @@ Tilemap:
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 6
   m_TileOrientationMatrix:
-    e00: 1.25
+    e00: 1
     e01: 0
     e02: 0
     e03: 0
     e10: 0
-    e11: 1.25
+    e11: 1
     e12: 0
     e13: 0
     e20: 0
@@ -733,7 +733,7 @@ Tilemap:
   m_Origin: {x: 0, y: -2, z: 0}
   m_Size: {x: 6, y: 3, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
-  m_TileOrientation: 0
+  m_TileOrientation: 6
   m_TileOrientationMatrix:
     e00: 1
     e01: 0
@@ -795,8 +795,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476d2111b7b8d25438e1175bd97966bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockTile: {fileID: 11400000, guid: 084a66c7756e1e643aaa525d1046ddca, type: 2}
-  brickTile: {fileID: 11400000, guid: 94b8a429b99b50243af344286c81b22a, type: 2}
+  blockTile: {fileID: 0}
+  brickTile: {fileID: 0}
   grassTile: {fileID: 11400000, guid: 83b0bd261bfd53b4aa148cb98127c3b0, type: 2}
   width: 20
   height: 20
@@ -876,7 +876,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881251067}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -978,32 +978,32 @@ Tilemap:
   m_TileMatrixArray:
   - m_RefCount: 0
     m_Data:
-      e00: 2.35e-43
+      e00: 3.5451107e+16
       e01: 0
       e02: 1e-45
-      e03: -1.0285598e-38
-      e10: 0
+      e03: -2.9710591e+29
+      e10: 4.5908e-41
       e11: 0
       e12: 0
-      e13: 7.33e-43
-      e20: -7.6066176e-10
-      e21: -1.0285598e-38
-      e22: 688586750
-      e23: 2.1195645e-19
-      e30: 4.5912e-41
-      e31: 7.33e-43
-      e32: 7.34e-43
-      e33: 7.34e-43
+      e13: 9.36e-43
+      e20: 3.4633963e+16
+      e21: -2.9710591e+29
+      e22: 8.68962e-40
+      e23: 9.606369e-10
+      e30: 4.5908e-41
+      e31: 9.36e-43
+      e32: 9.4e-43
+      e33: 9.37e-43
   m_TileColorArray:
   - m_RefCount: 0
-    m_Data: {r: 2.1195593e-19, g: 2.1195593e-19, b: 2.1195593e-19, a: 2.1195593e-19}
+    m_Data: {r: 9.606325e-10, g: 9.606325e-10, b: 9.606325e-10, a: 9.606325e-10}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: 0, y: -8, z: 0}
   m_Size: {x: 12, y: 9, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
-  m_TileOrientation: 0
+  m_TileOrientation: 6
   m_TileOrientationMatrix:
     e00: 1
     e01: 0

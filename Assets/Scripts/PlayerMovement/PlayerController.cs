@@ -14,6 +14,7 @@ public class PlayerMovement : NetworkBehaviour
 
     void Update()
     {
+        if (!IsOwner) return;
         if (Input.GetKeyDown(KeyCode.Space))
         {
             RequestPlaceBombRpc(new Vector3Int(1, 3, 1), NetworkObjectId);
@@ -32,6 +33,7 @@ public class PlayerMovement : NetworkBehaviour
     {
         // Validate hợp lệ: ô trống? cooldown xong chưa? có quyền không?
         // Instantiate bomb prefab (NetworkObject)
+        // if (IsServer) return;
         GameObject bomb = Instantiate(bomberPrefab, pos, Quaternion.identity);
         // bomb.GetComponent<NetworkObject>().Spawn(); // Netcode sẽ sync tới tất cả clients
     }

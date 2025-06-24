@@ -82,15 +82,19 @@ public class Bomb : MonoBehaviour
         Quaternion rotation = flamePrefab.transform.rotation;
         if (path == Vector3Int.left)
         {
-            rotation = Quaternion.Euler(0, 0, 180);
+            rotation = Quaternion.Euler(0, 0, 90);
+        }
+        else if (path == Vector3Int.right)
+        {
+            rotation = Quaternion.Euler(0, 0, -90);
         }
         else if (path == Vector3Int.up)
         {
-            rotation = Quaternion.Euler(0, 0, 90);
+            rotation = Quaternion.Euler(0, 0, 0);
         }
         else if (path == Vector3Int.down)
         {
-            rotation = Quaternion.Euler(0, 0, -90);
+            rotation = Quaternion.Euler(0, 0, 180);
         }
 
         Instantiate(flamePrefab, position, rotation);

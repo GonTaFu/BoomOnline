@@ -7,6 +7,9 @@ TagManager:
   - Floor
   - Destructable
   - Indestructable
+  - Indestruction
+  - Destruction
+  - Enemy
   layers:
   - Default
   - TransparentFX

@@ -4,8 +4,8 @@ using UnityEngine.Tilemaps;
 public class PlayerMovement : NetworkBehaviour
 {
     private Rigidbody2D playerRb;
-    private float HorizontalInput;
-    private float VerticalInput;
+    protected float HorizontalInput;
+    protected float VerticalInput;
 
     public bool inBubble = false;
 
@@ -28,7 +28,7 @@ public class PlayerMovement : NetworkBehaviour
         // Validate tại server
         PlaceBombRpc(gridPosition, sourcePlayerId);
     }
-    
+
     [Rpc(SendTo.ClientsAndHost)]
     private void PlaceBombRpc(Vector3Int pos, ulong playerId)
     {
@@ -36,5 +36,17 @@ public class PlayerMovement : NetworkBehaviour
         // Instantiate bomb prefab (NetworkObject)
         GameObject bomb = Instantiate(bomberPrefab, pos, Quaternion.identity);
         // bomb.GetComponent<NetworkObject>().Spawn(); // Netcode sẽ sync tới tất cả clients
+    }
+
+    public bool IsMoving()
+    {
+        if (HorizontalInput != 0 && VerticalInput != 0)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
     }
 }

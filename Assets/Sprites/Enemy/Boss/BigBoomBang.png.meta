@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BigBoomBang_0: 7384696863889372252
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

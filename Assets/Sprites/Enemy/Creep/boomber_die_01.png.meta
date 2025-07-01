@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boomber_die_01_0: -5834031160266037918
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
